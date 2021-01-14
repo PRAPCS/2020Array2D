@@ -23,5 +23,12 @@ class Main {
       }
       System.out.println();
     }
+
+    // loop through using an enhanced for loop
+    for (int[] aRow : xyz) {
+      for (int val : aRow)
+        System.out.print(val + "\t");
+      System.out.println();
+    }
   }
 }
